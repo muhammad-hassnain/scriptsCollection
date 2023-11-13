@@ -1,7 +1,9 @@
 #!/bin/bash
 
+# This script, cloens all the branches in a repistoroy in a seperate folder. 
+
 # Replace with your repository URL
-REPO_URL="https://github.com/DavisPL/docs-test.git"
+REPO_URL=""
 REPO_NAME=$(basename "$REPO_URL" .git)
 
 # Clone the repository
